@@ -1,0 +1,133 @@
+body{margin:0;background-color:white;}
+.otherLanguagesBody{background-color:white;}
+.sectionOffset a:link, .sectionOffset a:visited, .sectionOffset a:active{color:#790002;}
+.otherGamesTopSection a:link, .otherGamesTopSection a:visited, .otherGamesTopSection a:active{color:#790002;}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+img{max-width:100%;}
+header{width:100%;}
+#main{width:100%;margin-top:-5%;margin-bottom:0px;}
+.column{float:left;width:50%;}
+.columnPics{text-align:center;}
+.cycle-slideshow{display:inline-block;width:24%;}
+.rowPics{text-align:center;margin:auto;height:100%;max-height:300px;width:90%;max-width:1200px;}
+.row:after{content:" ";display:table;clear:both;}
+.border{width:80%;text-align:left;border-bottom:1px solid #9999;line-height:0.1em;}
+.border span{background:white;padding:60px;}
+.rankCardGame:hover{opacity:.7;}
+.otherGamesTopSection{padding-top:8%;max-width:1500px;background-color:#f2f2f2;margin:auto;text-align:center;}
+.policySection{padding-top:8%;background-color:white;max-width:1300px;margin:auto;}
+.otherGamesText{line-height:normal;text-align:left;}
+.leftText{text-align:left;}
+.bottomLinks{color:black;padding:15px;font-size:10pt;}
+.bottomLinks2{color:white;opacity:.7;padding:0px 15px 0px 15px;font-size:9pt;font-family:'Open Sans', sans-serif;text-decoration:none;}
+.section{width:100%;text-align:center;position:relative;z-index:0;background-color:#790002;padding-top:30px;padding-bottom:30px;color:white;font-weight:bold;line-height:normal;margin:0;}
+.section2{width:100%;text-align:center;position:relative;z-index:0;background-color:#790002;padding-top:0px;padding-bottom:20px;color:white;line-height:normal;margin-top:-30px;}
+.section a:link, .section a:hover, .section a:visited{color:white;}
+.download{line-height:normal;font-family:'Open Sans', sans-serif;text-decoration:none;margin:0px 0px 0px 0px;padding:0;}
+.sectionOffset{background-color:#ffffff;text-align:center;color:black;padding-bottom:20px;position:relative;z-index:auto;margin:0;}
+.sectionOffset2{background-color:#e6e6e6;text-align:center;color:black;padding-bottom:20px;position:relative;z-index:auto;margin:0;}
+.sectionOffset3{background-color:#212121;text-align:center;color:white;padding-bottom:20px;position:relative;z-index:auto;margin:-35px 0px -25px 0px;}
+.sectionOffset4{background-color:#ffffff;text-align:center;color:black;padding-bottom:20px;position:relative;z-index:auto;margin:auto;padding-top:1px;}
+.sectionOffsetRank{background-color:#c52030;text-align:center;color:white;height:100%;position:relative;z-index:auto;}
+.otherGamesButton{background-color:#790002;color:white;}
+.insideSectionOffset{max-width:850px;margin:auto;text-align:center;position:relative;z-index:auto;}
+.pictureContainer{background-color: gray;}
+h4{text-align:center;font-size:12pt;}
+h2{font-size:32pt;}
+h1{font-size:50pt;}
+h1, h2, h3, h4, h5, h6{font-family:'Open Sans', sans-serif;font-weight:normal;line-height:200%;}
+ul {font-size: 15px;list-style-type: none;margin: 0;padding: 0px;background-color: white;display: block;position: fixed;width: 100%;top: 0px;z-index: 10;}
+li {float: right;}
+li a {display: block;color: black;text-align: center;padding: 25px 16px;text-decoration: none;font-family: 'Open Sans', sans-serif;font-style: normal;}
+li a:hover {opacity: .8;background-color: #ac1d2b;color: white;}
+.menu{display:none;}
+.footer{
+  background-color: #ffffff;
+  text-align: center;
+  color: black;
+  height: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  }
+.active {background-color: #c52030;color: white;}
+.video-container{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;margin-left:10px;margin-right:10px;}
+.video-container iframe,
+.video-container object,
+.video-container embed{position:absolute;top:0;left:0;width:100%;height:100%;}
+#logoLi{float:left;margin-top:5px;margin-left:30px;height:auto;}
+#linkToTop{
+  margin: 0px;
+  padding: 0px;
+}
+#linkToTop:hover {
+  background-color: white;
+  text-decoration: none;
+}
+.parallax-window{min-height:1300px;width:auto;box-sizing:border-box;background:transparent;}
+.mainMobile{display:none;}
+.downArrow{display:flex;justify-content:center;align-items:center;width:100%;height:100%;top:1200px;position:relative;cursor:pointer;z-index:1;}
+.chevron{position:absolute;width:2.1rem;height:0.48rem;opacity:0;transform:scale(0.3);animation:move-chevron 3s ease-out infinite;}
+.chevron:first-child{animation:move-chevron 3s ease-out 1s infinite;}
+.chevron:nth-child(2){animation:move-chevron 3s ease-out 2s infinite;}
+.chevron:before, .chevron:after{content:'';position:absolute;top:0;height:100%;width:50%;background:#000000;}
+.chevron:before{left:0;transform:skewY(30deg);}
+.chevron:after{right:0;width:50%;transform:skewY(-30deg);}
+@keyframes move-chevron{25%{opacity:1;}
+33.3%{opacity:1;transform:translateY(2.28rem);}
+66.6%{opacity:1;transform:translateY(3.12rem);}
+100%{opacity:0;transform:translateY(4.8rem) scale(0.5);}
+}
+input, textarea{padding:12px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box;margin-top:6px;margin-bottom:16px;resize:vertical}
+.otherGamesBody{background-color:#f2f2f2;}
+.container{width:100%;text-align:center;margin:auto;z-index:auto;position:relative;}
+.socialIcons{width:auto;margin:auto;text-align:center;padding:0px 20px 0px 20px;}
+.socialIcons:hover{opacity:.7;}
+#myBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:18px;border:none;outline:none;background-color:#c52030;color:white;cursor:pointer;padding:15px;border-radius:4px;}
+#myBtn:hover{opacity:.7;}
+#submitBtn{font-size:18px;font-family:'Open Sans', sans-serif;border:solid;outline:none;background-color:#212121;color:white;cursor:pointer;padding:15px 40px 15px 40px;border-radius:4px solid;border-color:#ffffff;}
+#submitBtn:hover{background-color:#790002;border-color:#790002
+color:#white;}
+button{font-size:14px;font-family:'Open Sans', sans-serif;border:none;outline:none;background-color:#ffffff;color:#790002;cursor:pointer;padding:25px 35px 25px 35px;border-radius:4px;vertical-align:middle;}
+button:hover{opacity:.9;}
+.pad{padding-right:10px;vertical-align:middle;}
+#n, #e, #m, #status{font-family:'Open Sans', sans-serif;font-size:14pt;width:600px;}
+.menuContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.centerText h4{text-align:center;margin:auto;}
+@media screen and (max-width:768px){img{width:100%;}
+.pad{width:auto;}
+.menuContainer{width:auto;margin:auto;}
+#n, #e, #m, #status{width:300px;}
+.rankLogo{width:50%;}
+.rankLogo2{display:none;}
+.socialIcons{width:15%;}
+.column{padding:10px;width:98%;}
+.border{width:90%;}
+.border span{padding:10px;}
+.insideSectionOffset{width:98%;}
+.insideSectionOffset2{width:98%;}
+h1{font-size:30pt;}
+h2{font-size:20pt;}
+html,body{overflow-x:hidden;}
+.parallax-window{display:none;}
+.mainMobile{display:inline;min-width:auto;min-height:auto;}
+.burger-nav{display:block;height:40px;width:100%;background:url(images/burger.png) no-repeat 98% center;background-color:#790002;cursor:pointer;position:absolute;z-index:1;}
+#wrapper{max-width:100%;overflow:hidden;}
+.bottomLinks2{padding:0px 5px 0px 5px;}
+ul{padding-top:40px;position:absolute;background-color:#970003;z-index:auto;}
+header nav ul{overflow:hidden;height:0;}
+header nav ul li{font-family:'Open Sans', sans-serif;font-style:normal;float:none;text-align:left;width:100%;margin:0;font-size:20pt;}
+header nav ul li a{color:#fff;padding:10px 10px 10px 10px;display:block;margin 0;position: relative;z-index: 99;}
+header nav ul.open{height:auto;}
+#logoPic, #logoLi{display:none;}
+.boxTopImage{width:70%;}
+}
+.tc-image-caption2 {position: relative;overflow: hidden;}
+.tc-image-caption2 img {-webkit-transform: scale(1);transform: scale(1);-webkit-transition: all .4s ease-in-out;transition: all .4s ease-in-out;}
+.tc-image-caption2:hover img {-webkit-transform: scale(1.3);transform: scale(1.3);}
+.tc-image-caption2:after {position: absolute;content: '';height: 100%;width: 100%;background-color: rgba(0, 0, 0, 0.4);-webkit-transition: opacity .25s ease-in-out;transition: opacity .3s ease-in-out;opacity: 0;top: 0;}
+#navBar{position: relative;z-index: 99;}

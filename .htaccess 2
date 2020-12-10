@@ -1,0 +1,11 @@
+RewriteEngine on
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|js)$">
+Header set Cache-Control "max-age=1, public"
+</filesMatch>
+
+RewriteCond %{HTTPS} !on [OR]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) https://www.bluewasatch.com%{REQUEST_URI} [L,R=301]
